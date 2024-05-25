@@ -1,0 +1,40 @@
+##ignore this file##
+/target/
+/.idea/
+/.settings/
+/.vscode/
+/bin/
+output/
+.classpath
+.project
+.settings
+.idea
+##class file##
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+# compression file
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.via
+*.tmp
+*.err
+*.log
+*.iml
+# OS generated files #
+.DS_Store
+.DS_Store?
+._*
+__pycache__/*
+*.pyc
+# checkpoint file
+*.pth
