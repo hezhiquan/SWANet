@@ -1,0 +1,33 @@
+# Training configuration
+GPU: "0"
+
+MODEL:
+  MODE: '001_lol_stage2'
+
+# Optimization arguments.
+OPTIM:
+  BATCH: 4
+  EPOCHS: 300
+  LR_INITIAL: 1e-4
+  LR_MIN: 1e-5
+
+TRAINING:
+  loss_factor: 10
+  dwt_loss_factor: 0.1
+  factor: 10
+  VAL_AFTER_EVERY: 1
+  RESUME: False
+  checkpoint_path: ""
+  TRAIN_PS: 256
+  VAL_PS: "all"
+  WF: 64
+
+
+  #  MIT dataset
+  #  TRAIN_DIR: '/home/hzq/Code/LLIE/datasets/stage1/MIT_Adobe_fivek_split/train'
+  #  TEST_DIR: '/home/hzq/Code/LLIE/datasets/stage1/MIT_Adobe_fivek_split/test'
+
+
+  TRAIN_DIR: '/home/hzq/Code/LLIE/datasets/stage1/LOL/our485'
+  TEST_DIR: '/home/hzq/Code/LLIE/datasets/stage1/LOL/eval15'
+  SAVE_DIR: '/home/hzq/Code/LLIE/temp/SWANet/checkpoints'           # path to save models and images
