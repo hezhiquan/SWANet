@@ -20,10 +20,10 @@ The official pytorch implementation of the paper **[Low-Light Image Enhancement 
 
 We provide the pre-trained models and visual results.
 
-| Dataset         | PSNR  | SSIM   | MAC(s) | Pre-trained Model                                                                                   | Visual Results                                                                                        |
-|-----------------|-------|--------|--------|-----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| LOL             | 29.35 | 0.7877 | 0.19   | [LOL ckpt](https://drive.google.com/drive/folders/1Y4uat21f_epS-Y4JNUt2a7susHSeSfBg?usp=drive_link) | [LOL images](https://drive.google.com/drive/folders/1Tp6W8klAkXXG4he5JsdKrcoItGmGRSrN?usp=drive_link) |
-| MIT-Adobe FiveK | 27.55 | 0.7118 | 0.23   | [MIT ckpt](https://drive.google.com/drive/folders/1bFb2TDm24emWYMzvAxz4dVEu8l1YyEYf?usp=drive_link) | [MIT images](https://drive.google.com/drive/folders/1pCSauaVhdBqFDO_qHqtZNaUi2xNcN0_g?usp=drive_link) |
+| Dataset         | PSNR  | SSIM  | LPIPS | Pre-trained Model                                            | Visual Results                                               |
+| --------------- | ----- | ----- | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| LOL             | 25.37 | 0.859 | 0.116 | [LOL ckpt](https://drive.google.com/drive/folders/1Y4uat21f_epS-Y4JNUt2a7susHSeSfBg?usp=drive_link) | [LOL images](https://drive.google.com/drive/folders/1Tp6W8klAkXXG4he5JsdKrcoItGmGRSrN?usp=drive_link) |
+| MIT-Adobe FiveK | 25.21 | 0.896 | 0.055 | [MIT ckpt](https://drive.google.com/drive/folders/1bFb2TDm24emWYMzvAxz4dVEu8l1YyEYf?usp=drive_link) | [MIT images](https://drive.google.com/drive/folders/1pCSauaVhdBqFDO_qHqtZNaUi2xNcN0_g?usp=drive_link) |
 
 
 
